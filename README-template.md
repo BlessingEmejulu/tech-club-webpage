@@ -1,6 +1,6 @@
 # Frontend Mentor - Tech book club landing page solution
 
-This is a solution to the [Tech book club landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tech-book-club-landing-page-fZQidjHU73). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Tech book club landing page challenge on Frontend Mentor](#). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -11,8 +11,8 @@ This is a solution to the [Tech book club landing page challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Afeez-Ola/tech-book-club-landing-page)
-- Live Site URL: [Add live site URL here](https://tech-book-club-landing-page.vercel.app/)
+- Solution URL: [Add solution URL here]
+- Live Site URL: [Add live site URL here]
 
 ## My process
 
@@ -28,7 +28,7 @@ This is a solution to the [Tech book club landing page challenge on Frontend Men
 
 ## Author
 
-- Website - [Afeez Mobolaji](https://hashnode.com/@Mobolaji)
-- Frontend Mentor - [@Afeez-Ola](https://www.frontendmentor.io/profile/Afeez-Ola)
-- Twitter - [@mobolaji___]([mobolaji](https://x.com/mobolaji___))
+- Website - [](#)
+- Frontend Mentor - [#]()
+- Twitter - [#]()
 
