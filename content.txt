@@ -22,7 +22,6 @@
             TypeScript and everything in between.
             Our discussions blend technical depth with practical applications.
           
-        class="flex-col items-center self-stretch justify-center hidden w-full gap-16 py-20 m-auto mt-32 bg-left-top rounded-2xl tech_journey lg:flex lg:bg-light lg:bg-glow lg:bg-no-repeat">
         Your tech
           reading
           journey
