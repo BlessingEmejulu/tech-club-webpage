@@ -1,0 +1,150 @@
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+
+:root {
+    /* colors */
+   
+  
+    /* font-sizes */
+    --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
+    --fs-800: 6.25rem;
+    --fs-700: 2.5rem;
+    --fs-600: 2rem;
+    --fs-500: 1rem;
+    --fs-400: 1.125rem;
+    --fs-300: 1rem;
+    --fs-200: 0.875rem;
+  
+    /* font-families */
+    --ff-serif: "Inter", serif;
+    --ff-mono: "Martian Mono", sans-serif;
+  }
+
+/* ------------------- */
+/* Font imports       */
+/* ------------------- */
+
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/inter/Inter-Italic-VariableFont_opsz\,wght.ttf") format("truetype"),
+         url("./assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf") format("truetype"),
+         url("./assets/fonts/inter/static/Inter_18pt-Regular.ttf") format("truetype"),
+         url("./assets/fonts/inter/static/Inter_18pt-SemiBold.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Martian Mono";
+    src: url("./assets/fonts/martian-mono/MartianMono-Regular.woff2") format("truetype"),
+         url("./assets/fonts/martian-mono/static/MartianMono-Bold.ttf") format("truetype"),
+         url("./assets/fonts/martian-mono/static/MartianMono-Regular.ttf") format("truetype"),
+         url("./assets/fonts/martian-mono/static/MartianMono-SemiBold.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+/* set up the body */
+body {
+  font-family: var(--ff-serif), sans-serif;
+  font-size: var(--fs-400);
+  line-height: 1.5;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  overflow-x: hidden;
+}
+
+/* make images easier to work with */
+img,
+picutre {
+  max-width: 100%;
+  display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */
+.flex{
+    display: flex;
+}
+
+
+/*   header   */
+header{
+    background-image: url('./assets/images/pattern-light-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: bisque;
+    padding: 20px;
+    text-align:left;
+}
