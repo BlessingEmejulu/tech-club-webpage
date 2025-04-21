@@ -1,16 +1,15 @@
-:root{
-   --h1-bgclr:linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%); 
-   --p1:#385159;
-   --btn-border-clr:2px #062630 solid;
-   --btn-clr: #062630;
-   --btn-light-bgclr: #FFF5EF;
-   --btn-light-bg: no-repeat linear-gradient(90deg, #FFE2D1, #FFF5EF);
-   --h2-clr:#062630;
-   --body-clr: #ffffff;
-   --header-clr:#FAF5F3;
-   --footer-border-top: 1px #385159 solid;
+:root {
+   --gradient-primary: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
+   --text-primary: #385159;
+   --button-border: 2px #062630 solid;
+   --button-text: #062630;
+   --button-light-bg: #FFF5EF;
+   --button-light-gradient: no-repeat linear-gradient(90deg, #FFE2D1, #FFF5EF);
+   --heading-secondary: #062630;
+   --background-body: #ffffff;
+   --background-header: #FAF5F3;
+   --footer-border: 1px #385159 solid;
 }
-
 /* Note: the surfix "clr" means color. 
 btn  = button, bgclr = background color, 
 */
