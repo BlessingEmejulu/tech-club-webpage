@@ -223,7 +223,6 @@ header h1 {
 .review-stars{
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 
   .star-icons{
@@ -235,5 +234,8 @@ header h1 {
     height: auto;
   }
 
+  picture > img{
+    border-radius: 10px;
+  }
  
  
